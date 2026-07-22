@@ -29,8 +29,8 @@ import {
 import * as THREE from "three/webgpu";
 import { SkyMesh } from "three/examples/jsm/objects/SkyMesh.js";
 import { Inspector } from "three/examples/jsm/inspector/Inspector.js";
-import { TerrainGenerator } from "./TerrainGenerator";
-import { ForestGenerator } from "./ForestGenerator";
+import { TerrainGenerator } from "./TerrainGenerator.js";
+import { ForestGenerator } from "./ForestGenerator.js";
 
 const sketch: Sketch<"webgpu"> = async ({
   wrap,
