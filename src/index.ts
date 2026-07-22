@@ -32,6 +32,7 @@ import { Inspector } from "three/examples/jsm/inspector/Inspector.js";
 import { TerrainGenerator } from "./TerrainGenerator.js";
 import { ForestGenerator } from "./ForestGenerator.js";
 
+
 const sketch: Sketch<"webgpu"> = async ({
   wrap,
   canvas,
