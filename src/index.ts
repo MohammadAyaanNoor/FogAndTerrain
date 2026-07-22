@@ -45,6 +45,7 @@ const sketch: Sketch<"webgpu"> = async ({
     import.meta.hot.accept(() => wrap.hotReload());
   }
 
+  
   const groundColorValue = 0xd0dee7;
   const renderer = new WebGPURenderer({ canvas, antialias: true });
   renderer.setSize(width, height);
